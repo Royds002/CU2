@@ -10,12 +10,17 @@ body{
 p{
     font-size: 17px;
 }
+    
 
 Header{
     padding: 10px;
     text-align: center;
     font-size: 35px;
 }
+
+h1 {
+    text-shadow: 2px 2px 5px grey;
+  }
 
 Info{
     padding: 5px;
@@ -29,3 +34,7 @@ li{
 ul.b {
     list-style-type: square;
   }
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
