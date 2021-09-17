@@ -4,14 +4,12 @@ body{
     text-align: center;
     font-family: helvetica, Arial, sans-serif;
     font-size: 25px; 
-   
 }
 
 p{
     font-size: 17px;
 }
     
-
 Header{
     padding: 10px;
     text-align: center;
@@ -22,19 +20,23 @@ h1 {
     text-shadow: 2px 2px 5px grey;
   }
 
-Info{
-    padding: 5px;
-    
-}
-
-li{
-    font-size: 17px;
-}
-
-ul.b {
-    list-style-type: square;
+ul{
+    position:relative;
+    display: inline-block;  
+    list-style: none;
+    width:100%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  li{
+    list-style: none;
+    text-align: center;
+    margin: 15px; 
+    display: inline-block; 
   }
 
 img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
 }
